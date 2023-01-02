@@ -228,7 +228,7 @@ body::-webkit-scrollbar {
       z-index: -1;
       top: -1%;
       left: -2%;
-      animation: spin 2.5s linear infinite;
+ 
   }
   
   .card2::after {
@@ -248,7 +248,7 @@ body::-webkit-scrollbar {
       , #5ddcff, #3c67e3 43%, #4e00c2);
       opacity: 1;
     transition: opacity .5s;
-    animation: spin 2.5s linear infinite;
+
   }
   
   @keyframes spin {
@@ -309,7 +309,7 @@ body::-webkit-scrollbar {
       z-index: -1;
       top: -1%;
       left: -2%;
-      animation: spin 2.5s linear infinite;
+   
   }
   
   .card::after {
@@ -329,17 +329,10 @@ body::-webkit-scrollbar {
       , #5ddcff, #3c67e3 43%, #4e00c2);
       opacity: 1;
     transition: opacity .5s;
-    animation: spin 2.5s linear infinite;
+
   }
   
-  @keyframes spin {
-    0% {
-      --rotate: 0deg;
-    }
-    100% {
-      --rotate: 360deg;
-    }
-  }
+
   
   a {
     color: #212534;
