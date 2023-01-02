@@ -174,14 +174,7 @@ body::-webkit-scrollbar {
     animation: spin 2.5s linear infinite;
   }
   
-  @keyframes spin {
-    0% {
-      --rotate: 0deg;
-    }
-    100% {
-      --rotate: 360deg;
-    }
-  }
+  
   
   a {
     color: #212534;
